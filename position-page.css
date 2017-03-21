@@ -1,79 +1,79 @@
-
 .container {
-  	padding-right: 60px;
-  	padding-left: 60px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
 nav {
-  width: 100%;
-  height: 60px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #737477;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #737477;
 }
 
 nav .img-circle {
- 	margin-top: 5px;
- 	margin-bottom: 5px;
- 	max-width: 15%;
- 	height: 50px;
- 	margin-left: 50px;
- 	border-radius: 50%; 
- 	vertical-align: middle;
- 	border-color: solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 15%;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border-color: black;
+    border: 2px;
 }
 
 nav ul {
- 	list-style: none;
- 	display: inline-block;
- 	vertical-align: middle;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 nav li {
- 	display: inline-block;
+    display: inline-block;
 }
 
 nav li::after {
- 	content: " | ";
- 	margin: 5px;
+    content: " | ";
+    margin: 5px;
 }
 
 nav a:hover {
- 	color: black;
+    color: black;
 }
 
 html {
-	background: url(https://github.com/benjaminEwhite/css_layout_exercises/blob/master/images/outerspace_landscape.jpeg?raw=true) no-repeat center center fixed;
-  	background-size: cover;
+    background: url(https://github.com/benjaminEwhite/css_layout_exercises/blob/master/images/outerspace_landscape.jpeg?raw=true) no-repeat center center fixed;
+    background-size: cover;
 }
 
 body {
-	padding-top: 90px;
-	min-width: 1000px;
+    padding-top: 90px;
+    min-width: 1000px;
 }
 
 .box {
-	margin-top: 150px
-	margin-left: auto;
-	margin-right: auto;
-	border: 10px green dotted;
-	height: 300px;
-	width: 600px;
-	position: relative;
+    margin-top: 150px margin-left: auto;
+    margin-right: auto;
+    border: 10px green dotted;
+    height: 300px;
+    width: 600px;
+    position: relative;
 }
 
-img .spacecat, img .spacedog {
-	position: absolute;
-	width: 150px;
+img .spacecat,
+img .spacedog {
+    position: absolute;
+    width: 150px;
 }
 
 img .spacecat {
-	top: -90px;
-	left: -90px;
+    top: -90px;
+    left: -90px;
 }
 
 img .spacedog {
-	bottom: -120px;
-	right:  -60px;
+    bottom: -120px;
+    right: -60px;
 }
